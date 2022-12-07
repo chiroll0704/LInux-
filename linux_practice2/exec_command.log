@@ -1,0 +1,143 @@
+    1  cd /server_lesson
+    2  cd server_lesson
+    3  cd /root
+    4  ls
+    5  ls /
+    6  ls /usr
+    7  cd /root
+    8  ls
+    9  cd /server_lesson
+   10  git version
+   11  cd server_lesson
+   12  git init
+   13  ls
+   14  mkdir linux_practice1
+   15  ls
+   16  cd linux_practice1
+   17  mkdir public
+   18  ls
+   19  cd public
+   20  mkdir index.php
+   21  ls
+   22  git add server_lesson
+   23  cd server_lesson
+   24  cd /server_lesson
+   25  cd server_lesson
+   26  cd /root
+   27  ls
+   28  cd server_lesson
+   29  ls
+   30  cd linux_practice1
+   31  ls
+   32  cd /root
+   33  git add server_lesson
+   34  git status
+   35  git add server_lesson
+   36  cd server_lesson
+   37  git init
+   38  git add server_lesson
+   39  cd /root
+   40  cd serverlesson
+   41  cd server\lesson
+   42  cd server_lesson
+   43  cd public
+   44  cd /public
+   45  ls
+   46  cd linux_practice/public
+   47  cd linux_practice
+   48  cd /linux_practice1
+   49  cd linux_practice1
+   50  cd public
+   51  cp index.php index_bk.php
+   52  ls
+   53  cp index.php index_bk.php
+   54  ls
+   55  cp -r index.php index_bk.php
+   56  ls
+   57  cd linux_practice1
+   58  cd /linux_practice1
+   59  cd /root
+   60  cd server_lesson
+   61  cd linux_practice1
+   62  cp -r public tmp
+   63  ls
+   64  rm tmp/index_bk.php
+   65  rm -r tmp/index_bk.php
+   66  ls
+   67  cd tmp
+   68  ls
+   69  rm -r tmp/index_bk.php
+   70  ls
+   71  cd linux_practice1
+   72  cd /root
+   73  cd server_lesson
+   74  cd linux_practice1
+   75  ls
+   76  cd tmp
+   77  ls
+   78  cd /root
+   79  cd server_lesson
+   80  cd linux_practice1
+   81  rm tmp/index_bk.php
+   82  rm -r tmp/index_bk.php
+   83  cd tmp
+   84  ls
+   85  cd /root
+   86  cd server_lesson
+   87  echo 'wa' > README.md
+   88  ls
+   89  vi README.MD
+   90  git add
+   91  git add . server_lesson
+   92  cd /root
+   93  git add . server_lesson
+   94  git branch
+   95  cd server_lesson
+   96  git add . server_lesson
+   97  git status
+   98  git add . server_lesson
+   99  cd /root
+  100  git status
+  101  git add . server_lesson
+  102  cd server_lesson
+  103  git add
+  104  git add .
+  105  git commit -m '~practice1'
+  106  vi README.MD
+  107  rm README.MD
+  108  vi README.md
+  109  git add .
+  110  git status
+  111  git add -a
+  112  git add A .
+  113  git add -A .
+  114  git You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+  115  whose behaviour will change in Git 2.0 with respect to paths you removed.
+  116  Paths like 'README.MD' that are
+  117  removed from your working tree are ignored with this version of Git.
+  118  * 'git add --ignore-removal <pathspec>', which is the current default,
+  119    ignores paths you removed from your working tree.
+  120  git commit -m 'deleted README>MD'
+  121  mkdir linux_practice2
+  122  cd linux_practice2
+  123  mkdir documents
+  124  touch documents/gizumo01.md
+  125  ls
+  126  cd documents
+  127  ls
+  128  touch gizumo{02..50}.md
+  129  ls
+  130  cd /root
+  131  ls
+  132  cd server_lesson
+  133  ls
+  134  cd linux_practice2
+  135  mkdir trash
+  136  ls
+  137  mv documents/gizumo{20..40}.md trash
+  138  ls documents
+  139  touch .gitignore
+  140  ls
+  141  vi .gitignore
+  142  history 300
+  143  history 300 >> exec_command.log
